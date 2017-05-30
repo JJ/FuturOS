@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Cloudism and futurism</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/extra.css">
@@ -23,19 +23,37 @@
 		</script>
 	</head>
 	<body>
-		<div class="reveal">
-			<div class="slides">
-			  <section>
-			    <h1>The cloud and the future</h1>
-			    <h3>By <a
-		href='http://twitter.com/jjmerelo'><code>@jjmerelo</code></a>,
-			      <a
-		href='http://medium.com/@jjmerelo'><code>medium.com/@jjmerelo</code></a>,
-			      <a href='http://osl.ugr.es/'>Open Source
-				Lab</a>, <a href='http://ugr.university'>University of Granada</a></h3>
-			  </section>
-			  
-			  <section><h1>Futurism</h1></section>
+	  <div class="reveal">
+	    <div class="slides">
+	      <section>
+		<h1>The cloud and the future</h1>
+		<h3>By <a
+		  href='http://twitter.com/jjmerelo'><code>@jjmerelo</code></a>,
+		  <a
+		    href='http://medium.com/@jjmerelo'><code>medium.com/@jjmerelo</code></a>,
+		  <a href='http://osl.ugr.es/'>Open Source
+		    Lab</a>, <a href='http://ugr.university'>University of Granada</a></h3>
+	      </section>
+
+	      <section> <!-- This is an intro -->
+		<section data-background='img/light.jpg'><h2>In Seattle
+		  I saw the light</h2>
+		  <h1 class='fragment'>of the cloud</h1>
+		</section>
+		<section data-background='img/future.jpg'><h1>A
+		  multifaceted future</h1>
+		  <aside class='notes'>This joke has many facets,
+		    because that's a ballsy statement by Amazon, but also
+		    because the future is going to be composed of many
+		    different vendors and players</aside>
+		</section>
+	      </section>
+
+	      <section>
+		<section data-background='img/popova-portrait.png' alt='Portrait'><h1>This is the present</h1>
+		  <p class='fija'>Lyubov Popova, Portrait, 1914,
+		    from <em>Art of the avant-garde in Russia</em></p>
+		  <aside class='notes'>>Futurism</aside></section>
 			  <section><h1>Future Operating System</h1></section>
 			</div>
 		</div>
@@ -47,12 +65,15 @@
 			// More info about config & dependencies:
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+		 Reveal.initialize({
+		   backgroundTransition: 'zoom',
+		   transition: 'concave',
+		   width: '95%',
+		   slideNumber: true,
+		   history: true,
+		   dependencies: [
+		     { src: 'plugin/notes/notes.js', async: true },
+		     { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
 		</script>

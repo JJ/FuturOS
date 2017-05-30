@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
 section[data-background] h1 { 
        background-color:rgba(233,233,233,0.7);
        padding: 50px;
@@ -62,16 +64,21 @@ section[data-background] blockquote {
   color: white;
 }
 
-.fija div {
-            font: 14px "Fira Mono";
-            background-color: blue;
-            text-align: right;
-            padding: 2px;
-            margin: 1px;
-            color:  #ff2c2d;
+/* Posición fija */
+
+p.fija  {
+    position: absolute;
+    bottom: -300px;
+    right: 0;
+    font-family: "Special Elite", sans-serif;
+    font-size: 0.5em;
+    background-color: white;
+    text-align: left;
+    padding: 10px;
+    margin: 5px;
+    color:  #ff2c2d;
 }
 
-/* Posición fija */
 
 #fija { 
         position: fixed;
