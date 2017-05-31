@@ -67,9 +67,9 @@ section[data-background] blockquote {
 /* Posición fija */
 
 p.fija  {
-    position: absolute;
-    bottom: -300px;
-    right: 0;
+    position: fixed;
+    bottom: 1%;
+    left: 0;
     font-family: "Special Elite", sans-serif;
     font-size: 0.5em;
     background-color: white;
