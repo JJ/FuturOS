@@ -608,7 +608,7 @@ body {
 
 .reveal.cube .slides section {
   padding: 30px;
-  min-height: 700px;
+  min-height: 800px;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   box-sizing: border-box;
